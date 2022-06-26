@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Libraries\Kernel\Stryx.OS.Kernel\Stryx.OS.Kernel.csproj" />
+    <ProjectReference Include="..\..\Libraries\StryxLib\StryxLib.NET.ASP\StryxLib.NET.ASP.csproj" />
+    <ProjectReference Include="..\..\Libraries\StryxLib\StryxLib.NET\StryxLib.NET.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <SupportedPlatform Include="browser" />
+  </ItemGroup>
+</Project>

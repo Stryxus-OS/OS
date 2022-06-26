@@ -1,0 +1,44 @@
+<Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="wwwrot-dev\**" />
+    <Content Remove="wwwrot-dev\**" />
+    <EmbeddedResource Remove="wwwrot-dev\**" />
+    <None Remove="wwwrot-dev\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="6.0.5" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="6.0.5" PrivateAssets="all" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Apps\App.ASB\Stryx.OS.App.ASB\Stryx.OS.App.ASB.csproj" />
+    <ProjectReference Include="..\..\Apps\App.Atlas\Stryx.OS.App.Atlas\Stryx.OS.App.Atlas.csproj" />
+    <ProjectReference Include="..\..\Apps\App.Browser\Stryx.OS.App.Browser\Stryx.OS.App.Browser.csproj" />
+    <ProjectReference Include="..\..\Apps\App.Calculator\Stryx.OS.App.Calculator\Stryx.OS.App.Calculator.csproj" />
+    <ProjectReference Include="..\..\Apps\App.Files\Stryx.OS.App.Files\Stryx.OS.App.Files.csproj" />
+    <ProjectReference Include="..\..\Apps\App.Games\Stryx.OS.App.Games\Stryx.OS.App.Games.csproj" />
+    <ProjectReference Include="..\..\Apps\App.Health\Stryx.OS.App.Health\Stryx.OS.App.Health.csproj" />
+    <ProjectReference Include="..\..\Apps\App.News\Stryx.OS.App.News\Stryx.OS.App.News.csproj" />
+    <ProjectReference Include="..\..\Apps\App.Notepad\Stryx.OS.App.Notepad\Stryx.OS.App.Notepad.csproj" />
+    <ProjectReference Include="..\..\Apps\App.Photos\Stryx.OS.App.Photos\Stryx.OS.App.Photos.csproj" />
+    <ProjectReference Include="..\..\Apps\App.Settings\Stryx.OS.App.Settings\Stryx.OS.App.Settings.csproj" />
+    <ProjectReference Include="..\..\Apps\App.Videos\Stryx.OS.App.Videos\Stryx.OS.App.Videos.csproj" />
+    <ProjectReference Include="..\..\Libraries\Kernel\Stryx.OS.Kernel\Stryx.OS.Kernel.csproj" />
+    <ProjectReference Include="..\..\Libraries\StryxLib\StryxLib.NET.ASP\StryxLib.NET.ASP.csproj" />
+    <ProjectReference Include="..\..\Libraries\StryxLib\StryxLib.NET\StryxLib.NET.csproj" />
+    <ProjectReference Include="..\Shared\Stryx.OS.Shared.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+</Project>
