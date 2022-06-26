@@ -7,9 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Libraries\Kernel\Stryx.OS.Kernel\Stryx.OS.Kernel.csproj" />
-    <ProjectReference Include="..\..\Libraries\StryxLib\StryxLib.NET.ASP\StryxLib.NET.ASP.csproj" />
-    <ProjectReference Include="..\..\Libraries\StryxLib\StryxLib.NET\StryxLib.NET.csproj" />
+    <ProjectReference Include="..\Libraries\Kernel\Stryx.OS.Kernel\Stryx.OS.Kernel.csproj" />
+    <ProjectReference Include="..\Libraries\StryxLib\StryxLib.NET.ASP\StryxLib.NET.ASP.csproj" />
+    <ProjectReference Include="..\Libraries\StryxLib\StryxLib.NET\StryxLib.NET.csproj" />
   </ItemGroup>
 
   <ItemGroup>

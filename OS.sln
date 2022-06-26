@@ -3,41 +3,41 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32611.2
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stryx.OS.Server", "Stryx.OS\Server\Stryx.OS.Server.csproj", "{BB034399-0809-44D6-9CE6-3DBB3B637DB8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stryx.OS.Server", "Server\Stryx.OS.Server.csproj", "{BB034399-0809-44D6-9CE6-3DBB3B637DB8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stryx.OS.Client", "Stryx.OS\Client\Stryx.OS.Client.csproj", "{A607F1C3-A6E9-49DC-B643-A74C86707C85}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stryx.OS.Client", "Client\Stryx.OS.Client.csproj", "{A607F1C3-A6E9-49DC-B643-A74C86707C85}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stryx.OS.Shared", "Stryx.OS\Shared\Stryx.OS.Shared.csproj", "{C4984659-AD34-4EE6-A77D-E1F780D32B3C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stryx.OS.Shared", "Shared\Stryx.OS.Shared.csproj", "{C4984659-AD34-4EE6-A77D-E1F780D32B3C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{46962380-E47A-45B9-A751-2958CA6F4880}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Apps", "Apps", "{596F944B-7D42-4E13-B78C-76F0340EE895}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stryx.OS.Kernel", "Libraries\Kernel\Stryx.OS.Kernel\Stryx.OS.Kernel.csproj", "{AED78FF7-0B90-4E96-B1DF-87F1C52AAEB8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stryx.OS.Kernel", "Libraries\Kernel\Stryx.OS.Kernel\Stryx.OS.Kernel.csproj", "{AED78FF7-0B90-4E96-B1DF-87F1C52AAEB8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stryx.OS.App.ASB", "Apps\App.ASB\Stryx.OS.App.ASB\Stryx.OS.App.ASB.csproj", "{FD26E3F8-EF86-411C-B235-860F4DE75570}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stryx.OS.App.ASB", "Apps\App.ASB\Stryx.OS.App.ASB\Stryx.OS.App.ASB.csproj", "{FD26E3F8-EF86-411C-B235-860F4DE75570}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stryx.OS.App.Atlas", "Apps\App.Atlas\Stryx.OS.App.Atlas\Stryx.OS.App.Atlas.csproj", "{800E5543-9050-4CF6-A709-4305B50CBAB1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stryx.OS.App.Atlas", "Apps\App.Atlas\Stryx.OS.App.Atlas\Stryx.OS.App.Atlas.csproj", "{800E5543-9050-4CF6-A709-4305B50CBAB1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stryx.OS.App.Browser", "Apps\App.Browser\Stryx.OS.App.Browser\Stryx.OS.App.Browser.csproj", "{56239EB9-3513-4219-B95D-503FFC21967C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stryx.OS.App.Browser", "Apps\App.Browser\Stryx.OS.App.Browser\Stryx.OS.App.Browser.csproj", "{56239EB9-3513-4219-B95D-503FFC21967C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stryx.OS.App.Calculator", "Apps\App.Calculator\Stryx.OS.App.Calculator\Stryx.OS.App.Calculator.csproj", "{1081173B-FDBE-40DD-B28B-CEE6693AF971}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stryx.OS.App.Calculator", "Apps\App.Calculator\Stryx.OS.App.Calculator\Stryx.OS.App.Calculator.csproj", "{1081173B-FDBE-40DD-B28B-CEE6693AF971}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stryx.OS.App.Files", "Apps\App.Files\Stryx.OS.App.Files\Stryx.OS.App.Files.csproj", "{E3C089E7-8C73-449D-A983-4500623DB9E6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stryx.OS.App.Files", "Apps\App.Files\Stryx.OS.App.Files\Stryx.OS.App.Files.csproj", "{E3C089E7-8C73-449D-A983-4500623DB9E6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stryx.OS.App.Games", "Apps\App.Games\Stryx.OS.App.Games\Stryx.OS.App.Games.csproj", "{42EB7A77-6DCF-4567-9049-904B04F1F68A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stryx.OS.App.Games", "Apps\App.Games\Stryx.OS.App.Games\Stryx.OS.App.Games.csproj", "{42EB7A77-6DCF-4567-9049-904B04F1F68A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stryx.OS.App.News", "Apps\App.News\Stryx.OS.App.News\Stryx.OS.App.News.csproj", "{CFFE83E5-8379-4B21-823C-542225F4ACA8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stryx.OS.App.News", "Apps\App.News\Stryx.OS.App.News\Stryx.OS.App.News.csproj", "{CFFE83E5-8379-4B21-823C-542225F4ACA8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stryx.OS.App.Health", "Apps\App.Health\Stryx.OS.App.Health\Stryx.OS.App.Health.csproj", "{7C722E62-54D6-4613-845E-B3303828C296}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stryx.OS.App.Health", "Apps\App.Health\Stryx.OS.App.Health\Stryx.OS.App.Health.csproj", "{7C722E62-54D6-4613-845E-B3303828C296}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stryx.OS.App.Notepad", "Apps\App.Notepad\Stryx.OS.App.Notepad\Stryx.OS.App.Notepad.csproj", "{2B1EC3CA-2416-419B-97AF-C8D199EDEE9A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stryx.OS.App.Notepad", "Apps\App.Notepad\Stryx.OS.App.Notepad\Stryx.OS.App.Notepad.csproj", "{2B1EC3CA-2416-419B-97AF-C8D199EDEE9A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stryx.OS.App.Videos", "Apps\App.Videos\Stryx.OS.App.Videos\Stryx.OS.App.Videos.csproj", "{15C66290-D512-44BA-A3CF-9A34298EA63F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stryx.OS.App.Videos", "Apps\App.Videos\Stryx.OS.App.Videos\Stryx.OS.App.Videos.csproj", "{15C66290-D512-44BA-A3CF-9A34298EA63F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stryx.OS.App.Photos", "Apps\App.Photos\Stryx.OS.App.Photos\Stryx.OS.App.Photos.csproj", "{CAB7B3B1-A3AC-4AB4-A8E5-B5F18318FD30}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stryx.OS.App.Photos", "Apps\App.Photos\Stryx.OS.App.Photos\Stryx.OS.App.Photos.csproj", "{CAB7B3B1-A3AC-4AB4-A8E5-B5F18318FD30}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stryx.OS.App.Settings", "Apps\App.Settings\Stryx.OS.App.Settings\Stryx.OS.App.Settings.csproj", "{FB16D3A3-D912-4D27-BC7D-5533147A6992}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stryx.OS.App.Settings", "Apps\App.Settings\Stryx.OS.App.Settings\Stryx.OS.App.Settings.csproj", "{FB16D3A3-D912-4D27-BC7D-5533147A6992}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StryxLib.NET", "Libraries\StryxLib\StryxLib.NET\StryxLib.NET.csproj", "{4532F1B9-11DA-4AE4-ABAD-02424994587F}"
 EndProject
