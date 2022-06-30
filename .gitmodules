@@ -1,48 +1,64 @@
 [submodule "Apps/App.ASB"]
 	path = Apps/App.ASB
 	url = https://github.com/Stryxus-OS/App.ASB
+	ignore = dirty
 [submodule "Apps/App.Health"]
 	path = Apps/App.Health
+	ignore = dirty
 	url = https://github.com/Stryxus-OS/App.Health
 [submodule "Apps/App.Games"]
 	path = Apps/App.Games
 	url = https://github.com/Stryxus-OS/App.Games
+	ignore = dirty
 [submodule "Apps/App.News"]
 	path = Apps/App.News
 	url = https://github.com/Stryxus-OS/App.News
+	ignore = dirty
 [submodule "Apps/App.Files"]
 	path = Apps/App.Files
 	url = https://github.com/Stryxus-OS/App.Files
+	ignore = dirty
 [submodule "Apps/App.Browser"]
 	path = Apps/App.Browser
 	url = https://github.com/Stryxus-OS/App.Browser
+	ignore = dirty
 [submodule "Apps/App.Atlas"]
 	path = Apps/App.Atlas
 	url = https://github.com/Stryxus-OS/App.Atlas
+	ignore = dirty
 [submodule "Apps/App.Videos"]
 	path = Apps/App.Videos
 	url = https://github.com/Stryxus-OS/App.Videos
+	ignore = dirty
 [submodule "Apps/App.Photos"]
 	path = Apps/App.Photos
 	url = https://github.com/Stryxus-OS/App.Photos
+	ignore = dirty
 [submodule "Apps/App.Calculator"]
 	path = Apps/App.Calculator
 	url = https://github.com/Stryxus-OS/App.Calculator
+	ignore = dirty
 [submodule "Apps/App.Notepad"]
 	path = Apps/App.Notepad
 	url = https://github.com/Stryxus-OS/App.Notepad
+	ignore = dirty
 [submodule "StryxPack"]
 	path = StryxPack
 	url = https://github.com/Stryxus/StryxPack
+	ignore = dirty
 [submodule "StryxLib"]
 	path = StryxLib
 	url = https://github.com/Stryxus/StryxLib
+	ignore = dirty
 [submodule "Libraries/StryxLib"]
 	path = Libraries/StryxLib
 	url = https://github.com/Stryxus/StryxLib
+	ignore = dirty
 [submodule "Libraries/Kernel"]
 	path = Libraries/Kernel
 	url = https://github.com/Stryxus-OS/Kernel
+	ignore = dirty
 [submodule "Apps/App.Settings"]
 	path = Apps/App.Settings
 	url = https://github.com/Stryxus-OS/App.Settings
+	ignore = dirty
