@@ -7,10 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="wwwrot-dev\**" />
-    <Content Remove="wwwrot-dev\**" />
-    <EmbeddedResource Remove="wwwrot-dev\**" />
-    <None Remove="wwwrot-dev\**" />
+    <Compile Remove="wwwroot-dev\**" />
+    <Content Remove="wwwroot-dev\**" />
+    <EmbeddedResource Remove="wwwroot-dev\**" />
+    <None Remove="wwwroot-dev\**" />
   </ItemGroup>
 
   <ItemGroup>

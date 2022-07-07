@@ -1,0 +1,1 @@
+node StryxPack/StryxPack/bootstrapper.js ../Client ../Server build:debug
