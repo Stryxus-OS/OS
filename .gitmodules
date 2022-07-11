@@ -62,3 +62,9 @@
 	path = Apps/App.Settings
 	url = https://github.com/Stryxus-OS/App.Settings
 	ignore = dirty
+[submodule "Modules/bootstrap"]
+	path = Modules/bootstrap
+	url = https://github.com/twbs/bootstrap
+[submodule "Modules/Font-Awesome"]
+	path = Modules/Font-Awesome
+	url = https://github.com/FortAwesome/Font-Awesome
