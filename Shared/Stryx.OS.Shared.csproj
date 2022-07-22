@@ -4,6 +4,8 @@
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>Stryx.OS</AssemblyName>
+    <RootNamespace>Stryx.OS</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
